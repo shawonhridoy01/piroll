@@ -1,0 +1,200 @@
+/* 
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+@media only screen and (max-width: 1200px) and (min-width: 901px)  {
+    /* banner  */
+      .mybanner.my-img .img{
+        display: none;
+      }
+      
+    .heading {
+        font-size: 36px;
+      }
+
+
+}
+
+
+/* break  */
+
+@media only screen and (max-width: 900px) and (min-width: 600px)  {
+    header{
+        height: 60%;
+    
+    }
+    /* banner  */
+      .mybanner.my-img .img{
+        display: none;
+      }
+      
+    .heading {
+        font-size: 36px;
+      }
+      .carousel-item-inner-text{
+        width: 70%;
+        font-size: 22px;
+      }
+
+
+}
+
+
+
+/* break  */
+
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+    header{
+        
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    
+    }
+
+    /* banner  */
+
+
+      .mybanner.my-img .img{
+        display: none;
+      }
+      
+    .heading {
+        font-size: 30px;
+      }
+      .little-description {
+        font-size: 17px;
+        color: rgb(10, 10, 10);
+        line-height: 33px;
+        width: 90%;
+        margin:  20px 0;
+      }
+
+      /* about  */
+
+      .para.little-description {
+        font-size: 17px;
+        color: gray;
+        line-height: 33px;
+        width: 90%;
+        margin:  25px auto;
+    
+      }
+
+      /* skill  */
+
+            
+.my-progress{
+    height: 60vh;
+    padding: 80px;
+    overflow: hidden;
+}
+.prog.heading{
+    color: rgb(43, 201, 43);
+    font-size: 21px;
+    margin: 10px 0;
+}
+.my-img{
+    margin-left: 0px;
+}
+.my-img .img{
+    width: 500px;
+    
+    /* height: 300px; */
+}
+.carousel-item-inner-text{
+  width: 80%;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+
+
+}
+
+/* 200 TO 400 */
+
+@media only screen and (max-width: 399px) and (min-width: 200px)  {
+
+    header{
+        
+        height: 70%;
+        width: 100%;
+        overflow: hidden;
+    
+    }
+
+
+    /* banner  */
+
+
+      .mybanner.my-img .img{
+        display: none;
+      }
+      
+    .heading {
+        font-size: 20px;
+      }
+      .little-description {
+        
+        width: 95%;
+    
+      }
+
+      /* about  */
+
+      .para.little-description {
+        font-size: 17px;
+        color: gray;
+        line-height: 33px;
+        width: 90%;
+        margin:  25px auto;
+    
+      }
+
+      /* skill  */
+
+    
+      .my-progress{
+    
+        
+        height: 60%;
+        padding: 80px 20px;
+        overflow: hidden;
+    }
+.prog.heading{
+    color: rgb(43, 201, 43);
+    font-size: 21px;
+    margin: 10px 0;
+}
+.my-img{
+    margin-left: 0px;
+}
+.my-img .img{
+    width: 500px;
+    
+    /* height: 300px; */
+}
+.single-progress{
+    width: 100%;
+}
+.carousel-item-inner-text{
+  width: 90%;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+
+}

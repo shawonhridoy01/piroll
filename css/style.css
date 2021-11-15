@@ -1,0 +1,403 @@
+header{
+    background-image: url("../images/my-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 98vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav-bg{
+    
+    /* background-color: #11792b80; */
+    padding: 10px 0;;
+}
+.my-brand{
+    /* color: #0c0b0b; */
+    color: green;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.my-nav-div{
+    justify-content: flex-end;
+    text-align: center;
+}
+.nav-link{
+    /* color: #000000; */
+    color: rgb(4, 194, 4);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.3s ease;
+
+}
+.nav-link:hover{
+    color: rgb(31, 37, 37);
+}
+.my-toggler{
+padding: .25rem .75rem;
+font-size: 1.25rem;
+line-height: 1;
+background-color: transparent;
+border: 1px solid transparent;
+border-radius: .25rem;
+transition: box-shadow .15s ease-in-out;
+}
+.my-menu .fas{
+display: inline-block;
+width: 1.5em;
+height: 1.5em;
+vertical-align: middle;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+}
+
+/* banner portion  */
+
+.content {
+    color: #000000;
+  }
+
+  .mybanner.my-img .img{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 350px;
+  }
+.banner-padding{
+  padding-top: 12%;
+  padding-bottom: 100px;
+}
+.heading {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .innter-text {
+    color: green;
+  }
+  .little-description {
+    font-size: 17px;
+    color: rgb(10, 10, 10);
+    line-height: 33px;
+    width: 500px;
+    margin:  20px 0;
+  }
+  .btn-custom {
+    background: green;
+    color: white;
+    padding: 10px 28px;
+    line-height: 1.5rem;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+  }
+  .btn-custom:hover{
+      background-color: #000000;
+      color: green;
+  }
+
+  /* about section  */
+.about{
+    padding: 50px 0;
+  }
+  .para.little-description {
+    font-size: 17px;
+    color: gray;
+    line-height: 33px;
+    width: 700px;
+    margin:  25px auto;
+
+  }
+  
+
+/* progress */
+
+.my-progress{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,9,0.4)) ,url("../images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    padding: 80px;
+    overflow: hidden;
+}
+.prog.heading{
+    color: rgb(43, 201, 43);
+    font-size: 21px;
+    margin: 10px 0;
+}
+.my-img{
+    margin-left: 70px;
+}
+.my-img .img{
+    width: 300px;
+}
+
+/* count section  */
+
+
+.count {
+  text-align: center;
+  padding: 100px 0;
+  background-color: rgb(36, 236, 236);
+
+}
+/* .count-description{
+  /* margin-left: 20px; */
+
+.count-description h2 {
+
+  font-size: 26px;
+  font-weight: 700;
+  margin: 10px;
+  color: #ffffff;
+}
+.count-description h3 {
+
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: capitalize;
+
+}
+
+.icon {
+  font-size: 28px;
+  color: #ffffff;
+  
+}
+
+/* gallery section  */
+.single-image{
+  margin: 0;
+  padding: 2px;
+  position: relative;
+
+
+}
+.image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  height: 280px;
+  
+}
+.overlay-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: black;
+  visibility: hidden;
+  transition: 0.4s ease-in-out;
+
+}
+.single-image::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: none;
+  z-index: 12;
+  transition: 0.4s ease;
+}
+.single-image:hover::after{
+  background-color: #00000090;
+}
+.single-image:hover .overlay-icon{
+  visibility: visible;
+  z-index: 13;
+}
+
+
+.load-more {
+  text-align: center;
+  padding: 30px;
+  background: #00000030;
+}
+.load-more button {
+  background: none;
+  outline: none;
+  border: 2px solid black;
+  padding:10px 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s ;
+}
+.load-more button:hover{
+  background-color: #000000;
+  color: #ffffff;
+
+}
+
+.video-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #1dcaca;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 73px;
+  position: absolute;
+  top: 20%;
+  left: 76%; 
+  
+}
+.my-video-box{
+  position: relative;
+
+}
+video{
+  width: 100%;
+  height: 60%;
+}
+/* service section  */
+.service{
+    background-color: #80808010;  
+    z-index: -2;
+    padding: 50px 0;
+
+}
+.service-box{
+  z-index: 3;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+.service-box h2{
+  text-align: center;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin: 12px 0;
+  color: rgb(49, 143, 70);
+
+}
+ .service-box .service-icon{
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 25px;
+  color: rgb(49, 143, 70);
+}
+.service-box p{
+  color: gray;
+
+}
+.review{
+  background-color: #1dcaca;
+  padding: 50px 0;
+}
+.carousel-item-inner-text{
+  width: 60%;
+  line-height: 50px;
+  margin-bottom: 70px;
+}
+.review .my-quote{
+  color: black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 0;
+}
+.brand{
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* contact section  */
+.contact-text{
+  text-align: center;
+  font-size: 28px;
+  color: #000006;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+
+}
+
+.contact-para{
+ width: 60%;
+ margin: 20px auto;
+ color: gray;
+ text-align: center;
+
+ 
+}
+.contact{
+  padding: 100px 0;
+  background-color: #e6d6d6;  
+
+}
+.my-form{
+  width: 70%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+input{
+
+}
+.my-form-item{
+  border: none;
+  outline: none;
+  /* padding: 20px auto; */
+  padding: 15px 10px;
+
+
+
+}
+.btn-div{
+  text-align: center;
+}
+
+.contact-btn{
+  background-color: #1dcaca;
+  color: white;
+  padding: 12px 30px;
+}
+.contact-btn:hover{
+  background-color: rgb(12, 105, 12);
+  color: white;
+}
+
+footer{
+  background-color: #000008;
+  color: gray;
+  padding: 50px 0;
+  text-align: center;
+}
+footer h3{
+  font-size: 18px;
+  color: #ffffff;
+  text-align: start;
+}
+.start{
+  text-align: start;
+}
+.end{
+  text-align: end;
+}
+footer h4{
+  font-size: 16px;
+  color: white;
+  padding-right: 20px;
+}
